@@ -69,6 +69,7 @@ const FrequencyCounter = () => {
 
     return (
         <div>
+            <h1>Frequency Counter and Analyzer</h1>
             <button onClick={fetchData} disabled={loading}>
                 {loading ? 'Loading...' : 'Submit'}
             </button>
